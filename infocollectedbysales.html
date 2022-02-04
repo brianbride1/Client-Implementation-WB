@@ -38,33 +38,133 @@
             <label for "PRIMARY_CONTACT_TITLE>Primary Contact Title: </label> 
             <input type="text" name="PRIMARY_CONTACT_TITLE" id="PRIMARY_CONTACT_TITLE" required>
         </div>
-        <div>Primary Phone: </div>
-        <div>Primary Email: </div>
-        <div>Is Primary Time Contact?</div>
-        <div>Secondary Contact</div>
-        <div>Secondary Title:</div>
-        <div>Secondary Phone: </div>
-        <div>Secondary Email:</div>
-        <div>Is Primary Time Contact?</div>
-        <div>CPA Contact-Affliate: </div>
-        <div>CPA Phone: </div>
-        <div>CPA Email: </div>
-        <div>Preferred Time Zone: </div>
-        <div>Company Status (New Business versus Wages)</div>
-        <div>Work Location 1: </div>
-        <div>WL1-Street Address: </div>
-        <div>WL1-City: </div>
-        <div>WL1-State: </div>
-        <div>WL1-Zip: </div>
-        <div>Delivery Information: </div>
-        <div>Street: </div>
-        <div>City: </div>
-        <div>State: </div>
-        <div>Zip: </div>
-        <div>Attention: </div>
+        <div>
+            <label for "PRIMARY_PHONE>Primary Contact Phone: </label> 
+            <input type="text" name="PRIMARY_PHONE" id="PRIMARY_PHONE" required>
+        </div>
+        <div>
+            <label for "PRIMARY_EMAIL">Primary Contact Email: </label>
+            <input type="text" name="PRIMARY_EMAIL" id="PRIMARY_EMAIL" required>
+        </div>
+        <div>
+            <label for "CPA_AFFLIATE">CPA Contact Affiliate</label>
+            <input type="datalist" name="CPA_AFFLIATE" id="CPA_AFFLIATE" required>
+        </div>
+        <div>
+            <label for "CPA-PHONE">CPA Phone: </label>  
+            <input type="text" name="CPA-PHONE" id="CPA-PHONE" required>
+        </div>
+        <div>
+            <label for "CPA-EMAIL">CPA Email: </label>  
+            <input type="text" name="CPA-EMAIL" id="CPA-EMAIL" required>
+        </div>
+        <div>
+            <label for "TIME_ZONE">Preferred Time Zone: </label>
+            <input type="text" name="TIME_ZONE" id="TIME_ZONE" required>
+        </div>
+        <div>
+            <label for "WAGE_STATUS">Company Status (new business versus wages</label>
+            <input type="text" name="WAGE_STATUS" id="WAGE_STATUS" required>
+        </div>
+        <div>
+            <label for "WORK_LOCATION1">Work Location 1:</label>
+            <input type="text" name="WORK_LOCATION1" id="WORK_LOCATION1" required>
+        </div>
+        <div>
+            <label for "WL1-STREET">WL1-Street Address: </label>
+            <input type="text" name="WL1-STREET" id="WL1-STREET" required>
+        </div>
+        <div>
+            <label for "WL1-CITY">WL1-City: </label> 
+            <input type="text" name="WL1-CITY" id="WL1-CITY" required>
+        </div>
+        <div>
+            <label for "WL1-STATE">WL1-State: </label> 
+            <input type="text" name="WL1-STATE" id="WL1-STATE" required>
+        </div>
+        <div>
+            <label for "WL1-ZIP">WL1-Zip: </label>
+            <input type="text" name="WL1-ZIP" id="WL1-ZIP" required>
+        </div>
+        <div>
+            <label for "DELIVERY">Delivery Information: </label>
+            <input type="text" name="DELIVERY" id="DELIVERY" required> 
+        </div>
+        <div>
+            <label for "DELIVERY_STREET">Street: </label> 
+            <input type="text" name="DELIVERY_STREET" id="DELIVERY_STREET" required>
+        </div>
+        <div>
+            <label for "DELIVERY_CITY:">City: </label>
+            <input type="text" name="DELIVERY_CITY" id="DELIVERY_CITY" required>
+        </div>
+        <div>
+            <label for "DELIVERY_STATE">State: </label>
+            <input type="text" name="DELIVERY_STATE" id="DELIVERY_STATE" required>
+        </div>
+        <div>
+            <label for "DELIVERY_ZIP">ZIP: </label>
+            <input type="text" name="DELIVERY_ZIP" id="DELIVERY_ZIP" required>
+        </div>
+        <div>
+            <label for "DELIVERY_ATTENTION">ATTENTION: </label>
+            <input type="text" name="DELIVERY_ATTENTION" id="DELIVERY_ATTENTION" required> 
+        </div>
     </form>
     <br>
+    
+    <form class="box-right">
+        <div>
+            <label for "NUM_STATE_TAXES">Number of State Tax filings: </label>
+            <input type="number" name="NUM_STATE_TAXES" id="NUM_STATE_TAXES" required>
+        </div>
+
+        <div>
+            <label for "LOCAL_TAXES">Do you have any employees with local tax withholdings?</label>
+            <input type="text" name="LOCAL_TAXES" id="LOCAL_TAXES" required>
+        </div>
+
+        <div>
+            <label for "haveVOIDEDCHECK">Do you have a voided check or proof of client checking account?</label>
+            <input type="text" name="haveVOIDEDCHECK" id="haveVOIDEDCHECK" required>
+        </div>
+
+        <div>
+            <label for "GENERAL_LEDGER">General Ledger: </label>
+            <input type="text" name="GENERAL_LEDGER" id="GENERAL_LEDGER" required>
+        </div>
+
+        <div>
+            <label for "TIMEANDATTENDANCE">Time and Attendence:  </label>
+            <input type="text" name="TIMEANDATTENDANCE" id="TIMEANDATTENDANCE" required>
+        </div>
+
+        <div>
+            <label for "EXPENSEMANAGEMENT">Expense Management:  </label>
+            <input type="text" name="EXPENSEMANAGEMENT" id="EXPENSEMANAGEMENT" required>
+        </div>
+
+        <div>
+            <label for "PROJFIRSTCHECK">Projected First Check Date:  </label>
+            <input type="text" name="PROJFIRSTCHECK" id="PROJFIRSTCHECK" required>
+        </div>
+
+        <div>
+            <label for "PAYFREQUENCY">Pay Frequency:  </label>
+            <input type="datalist" name="PAYFREQUENCY" id="PAYFREQUENCY" required>
+        </div>
+
+        <div>
+            <label for "PAYPERIODSTART">Pay Period Start:  </label>
+            <input type="text" name="PAYPERIODSTART" id="PAYPERIODSTART" required>
+        </div>
+
+        <div>
+            <label for "PAYPERIODEND">Pay Perid End:  </label>
+            <input type="text" name="PAYPERIODEND" id="PAYPERIODEND" required>
+        </div>
+       
+    </form>
     <button class="submit_button" type="submit">Submit</button>
 </body>
-
 </html>
